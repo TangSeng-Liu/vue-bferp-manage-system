@@ -160,7 +160,7 @@
                 let str = '';
                 this.del_list = this.del_list.concat(this.multipleSelection);
                 for (let i = 0; i < length; i++) {
-                    str += this.multipleSelection[i].name + ' '; 
+                    str += this.multipleSelection[i].name + ' ';
                 }
                 this.$message.error('删除了' + str);
                 this.multipleSelection = [];
