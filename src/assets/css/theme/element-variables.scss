@@ -1,14 +1,12 @@
-/*主题颜色变量*/
-$color:#564A94;
-/*菜单字体颜色变量*/
-$navColor:#20a0ff;
 /* 改变主题色变量 */
-$--color-primary: $color;
+$color:#564A94;
 
+$--color-primary: $color;
 /* 改变 icon 字体路径变量，必需 */
 $--font-path: '~element-ui/lib/theme-chalk/fonts';
 
 @import "../../../../node_modules/element-ui/packages/theme-chalk/src/index";
+/*头部菜单背景颜色*/
 .header{
   background-color: #242f42;
 }
