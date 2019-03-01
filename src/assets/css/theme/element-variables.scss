@@ -1,6 +1,9 @@
-
+/*主题颜色变量*/
+$color:#564A94;
+/*菜单字体颜色变量*/
+$navColor:#20a0ff;
 /* 改变主题色变量 */
-$--color-primary: #564A94;
+$--color-primary: $color;
 
 /* 改变 icon 字体路径变量，必需 */
 $--font-path: '~element-ui/lib/theme-chalk/fonts';
@@ -16,24 +19,25 @@ $--font-path: '~element-ui/lib/theme-chalk/fonts';
   background: #eef1f6;
 }
 .plugins-tips a{
-  color: #20a0ff;
+  color: $color;
 }
 .el-upload--text em {
-  color: #20a0ff;
+  color: $color;
 }
 .pure-button{
-  background: #20a0ff;
+  background: $color;
 }
 .tags-li.active {
-  border: 1px solid #564A94;
-  background-color: #564A94;
+  border: 1px solid $color;
+  background-color: $color;
 }
 .message-title{
-  color: #20a0ff;
+  color: $color;
 }
 .collapse-btn:hover{
   background: rgb(40,52,70);
 }
+
 [class*=" el-icon-lx"], [class^=el-icon-lx] {
   font-family: lx-iconfont!important;
 }

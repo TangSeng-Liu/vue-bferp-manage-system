@@ -14,9 +14,9 @@
                     </el-form-item>
                     <el-form-item label="选择器">
                         <el-select v-model="form.region" placeholder="请选择">
-                            <el-option key="bbk" label="步步高" value="bbk"></el-option>
-                            <el-option key="xtc" label="小天才" value="xtc"></el-option>
-                            <el-option key="imoo" label="imoo" value="imoo"></el-option>
+                            <el-option key="1" label="选择器1" value="1"></el-option>
+                            <el-option key="2" label="选择器2" value="2"></el-option>
+                            <el-option key="3" label="选择器3" value="3"></el-option>
                         </el-select>
                     </el-form-item>
                     <el-form-item label="日期时间">
@@ -36,16 +36,16 @@
                     </el-form-item>
                     <el-form-item label="多选框">
                         <el-checkbox-group v-model="form.type">
-                            <el-checkbox label="步步高" name="type"></el-checkbox>
-                            <el-checkbox label="小天才" name="type"></el-checkbox>
-                            <el-checkbox label="imoo" name="type"></el-checkbox>
+                            <el-checkbox label="多选项1" name="type"></el-checkbox>
+                            <el-checkbox label="多选项2" name="type"></el-checkbox>
+                            <el-checkbox label="多选项3" name="type"></el-checkbox>
                         </el-checkbox-group>
                     </el-form-item>
                     <el-form-item label="单选框">
                         <el-radio-group v-model="form.resource">
-                            <el-radio label="步步高"></el-radio>
-                            <el-radio label="小天才"></el-radio>
-                            <el-radio label="imoo"></el-radio>
+                            <el-radio label="单选项1"></el-radio>
+                            <el-radio label="单选项2"></el-radio>
+                            <el-radio label="单选项3"></el-radio>
                         </el-radio-group>
                     </el-form-item>
                     <el-form-item label="文本框">
@@ -125,8 +125,8 @@
                     date1: '',
                     date2: '',
                     delivery: true,
-                    type: ['步步高'],
-                    resource: '小天才',
+                    type: ['多选项3'],
+                    resource: '单选项2',
                     desc: '',
                     options: []
                 }
